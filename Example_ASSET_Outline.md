@@ -95,6 +95,8 @@ What is LiaScript primarily used for?
 
 LiaScript excels at creating interactive, engaging educational materials with multimedia support, quizzes, and dynamic content.
 
+Disclaimer: UNESCO UNEVOC Centre Magdeburg is responsible for the choice and presentation of the views contained in this [material], as well as for the opinions expressed therein, which are not necessarily those of UNESCO and do not commit UNESCO”
+
 </div>
 
 <!-- Standard logo placement continues -->
@@ -112,3 +114,4 @@ LiaScript excels at creating interactive, engaging educational materials with mu
   <img src="https://via.placeholder.com/120x80/5b9bd5/white?text=LOGO3" alt="Partner Logo" />
   <div class="logo-text">Partner</div>
 </div>
+
