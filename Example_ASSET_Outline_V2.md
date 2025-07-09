@@ -5,7 +5,7 @@ version: 1.0
 language: en
 comment: Civic PowerPoint Theme Clone in LiaScript with ASSET logos
 
-import: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
+link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
 -->
 
 ## <span class="main-title">Title Page</span>
