@@ -1,6 +1,6 @@
 <!--
-author: AI Education Expert
-email: tvet@education.ai
+author: Hannes Tegelbeckers 
+email: hannes.tegelbeckers@ovgu.de
 version: 1.0
 language: en
 narrator: US English Female
