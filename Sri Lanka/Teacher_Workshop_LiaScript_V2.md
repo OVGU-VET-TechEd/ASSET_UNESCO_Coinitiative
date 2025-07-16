@@ -1,16 +1,75 @@
 <!--
-author: Mahwish Kanwal
-email: masub.makhdoom@ovgu.de
-version: 1.0
+author: AI in TVET Workshop Team
+email: 
+version: 1.0.0
 language: en
-narrator: UK English Female
+narrator: US English Female
 comment: Interactive 90-minute workshop on AI applications in TVET education for Sri Lankan teachers
+logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1915px-Tensorflow_logo.svg.png
 
-logo:     https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400
+link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
 
-link: https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/ASSET_basic.css
+@style
+.sector-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
 
-link:https://github.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/blob/main/ASSET_basic.css
+.sector-card:hover {
+    transform: translateY(-5px);
+}
+
+.ai-tool-demo {
+    background: #f8f9fa;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+}
+
+.quiz-interactive {
+    background: linear-gradient(45deg, #ff6b6b, #ffa726);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+
+.resource-link {
+    background: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.25rem;
+    transition: all 0.3s ease;
+}
+
+.resource-link:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+@end
+
+@customQuiz
+[[...]]
+<script>
+"@0" == btoa( "@input".trim().toLowerCase() )
+</script>
+@end
+
+@aiDemo: <div class="ai-tool-demo">**AI Demo:** @0<br>**Tool:** @1<br>**Try it:** [Click here](@2)</div>
+
+@sectorCard: <div class="sector-card">**@0**<br>@1</div>
+
+@resourceLink: <a href="@1" class="resource-link" target="_blank">@0</a>
+
 -->
 
 ## <span class="main-title">Welcome</span>
