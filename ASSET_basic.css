@@ -65,12 +65,15 @@ section::after {
     /* GIZ logo - center */
     url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/giz-logo.gif') no-repeat calc(50% - 40px) 20px / 80px auto,
     /* OVGU logo */
-    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/ovgu.png') no-repeat calc(100% - 260px) 20px / 80px auto,
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/ovgu.png') no-repeat calc(100% - 340px) 20px / 80px auto,
     /* UoVT logo */
-    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/UoVT_Logo.png') no-repeat calc(100% - 160px) 20px / 80px auto,
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/UoVT_Logo.png') no-repeat calc(100% - 240px) 20px / 80px auto,
+    /* HRDC logo - newly added */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/hrdc_logo.png') no-repeat calc(100% - 140px) 20px / 80px auto,
     /* MITD logo - rightmost */
-    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/mitd_logo.png') no-repeat calc(100% - 60px) 20px / 80px auto;
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/mitd_logo.png') no-repeat calc(100% - 40px) 20px / 80px auto;
 }
+
 
 /* Manual logo containers (for when you need more control) */
 .logo-container {
