@@ -4,7 +4,7 @@ email:
 version: 1.0.0
 language: en
 narrator: US English Female
-comment: Interactive 90-minute workshop on AI applications in TVET education for Sri Lankan teachers
+comment: Interactive 90-minute workshop on AI applications in TVET education for teachers
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1915px-Tensorflow_logo.svg.png
 
 link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/refs/heads/main/ASSET_basic.css
@@ -156,11 +156,11 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
 ---
 
-## <span class="main-title">90-Minute Interactive Workshop for Sri Lankan Educators</span>
+## <span class="main-title">90-Minute Interactive Workshop for Educators</span>
 
 > Workshop Objectives:
 
-> - Discover AI applications in Sri Lanka's major TVET sectors  
+> - Discover AI applications in exemplary TVET sectors  
 > - Create hands-on learning materials using AI tools   
 > - Share practical strategies for classroom implementation   
 > - Align with UNESCO AI Competency Framework   
@@ -169,7 +169,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
    --{{0}}--  
 
-Welcome to our interactive workshop on Artificial Intelligence in Technical and Vocational Education and Training. Today, we'll explore how AI can revolutionize education in Sri Lanka's key industries while maintaining a human-centered, ethical approach.
+Welcome to our interactive workshop on Artificial Intelligence in Technical and Vocational Education and Training. Today, we'll explore how AI can revolutionize education in industries while maintaining a human-centered, ethical approach.
 
 <!-- UNEVOC -->
 <div style="position: fixed; bottom: 20px; left: 20px; opacity: 0.9; z-index: 1000; text-align: center; width: 100px;">
