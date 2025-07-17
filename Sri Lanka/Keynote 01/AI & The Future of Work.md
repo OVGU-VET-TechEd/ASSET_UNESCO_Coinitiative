@@ -71,7 +71,6 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
 -->
 
-## .
 
 <svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
   <!-- Background -->
@@ -97,7 +96,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
   <!-- Faculty info -->
   <text x='400' y='250' font-family='Segoe UI, Arial, sans-serif' font-size='16' font-weight='bold' text-anchor='middle' fill='#3949AB'>
-    Fakultät für Humanwissenschaften (TVET)
+    Faculty of Humanities (FHW)
   </text>
 
   <!-- University info -->
