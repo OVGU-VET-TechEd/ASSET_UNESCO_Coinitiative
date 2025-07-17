@@ -237,7 +237,7 @@ Welcome to our interactive workshop on Artificial Intelligence in Technical and 
 ">
 
 <h2 style="text-align:center; font-size:1.8em; color:#004080;">
-  65-MINUTE JOURNEY
+  90-MINUTE JOURNEY
 </h2>
 
 <hr style="border: none; border-top: 2px solid #b3e5fc; margin: 1em 0;">
@@ -251,7 +251,7 @@ Welcome to our interactive workshop on Artificial Intelligence in Technical and 
 
 <hr style="border: none; border-top: 2px solid #b3e5fc; margin: 1em 0;">
 
-<h3>🛠️ CREATE (25 min)</h3>
+<h3>🛠️ CREATE (40 min)</h3>
 <ul>
   <li>Build</li>
   <li>Practice</li>
@@ -260,7 +260,7 @@ Welcome to our interactive workshop on Artificial Intelligence in Technical and 
 
 <hr style="border: none; border-top: 2px solid #b3e5fc; margin: 1em 0;">
 
-<h3>🌟 SHARE (15 min)</h3>
+<h3>🌟 SHARE + DISCUSS (25 min)</h3>
 <ul>
   <li>Present</li>
   <li>Reflect</li>
