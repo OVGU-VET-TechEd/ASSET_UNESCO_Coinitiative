@@ -131,7 +131,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 ## <span class="main-title">🔍Discover  ✏️Create 🌍Share</span>
 
 >* Duration: 90 minutes      
->* Audience: Students aged 13-17      
+>* Audience: Students aged 20 +      
 >* Format: Interactive hands-on workshop    
 
    --{{0}}--  
