@@ -71,6 +71,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
 -->
 
+#.
 
 <svg xmlns='http://www.w3.org/2000/svg' width='1100' height='400' viewBox='0 0 800 450'>
   <!-- Background -->
@@ -718,6 +719,7 @@ professional skills and nearly 70% use automation tools regularly.
     - AI ethicist, prompt engineer, MLOps, data annotator, human-AI interaction designer.
     - New specialties to build, maintain, and audit AI systems.
     - Traditional fields (healthcare, education, law) hiring AI consultants (e.g., medical AI analysts, learning technologists).
+</div>
 
 <div style="text-align: center;">
   <img src="https://github.com/AEMSabbirRifat/UNESCO-asset/blob/0cd6270d254d6a2d285a87468b071e6f19882a64/AI%20%26%20the%20Future%20of%20Work/media/1.%20Impact%20of%20AI%20on%20Various%20Industries.png?raw=true" 
