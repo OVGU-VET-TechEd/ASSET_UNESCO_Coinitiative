@@ -334,7 +334,7 @@ link: https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiativ
 
 ---
 
-### 📈 Industry 4.0 and the Digital Tsunami
+### 📈 Industry 4.0 and the Digital Storm
 
 <div class="glass-effect">
 
