@@ -12,7 +12,7 @@ section {
 
 /* Heading styles */
 h1, h2, h3 {
-  color: #F48221;
+  color: #F48221 !important; 
 }
 
 /* Main title styling */
