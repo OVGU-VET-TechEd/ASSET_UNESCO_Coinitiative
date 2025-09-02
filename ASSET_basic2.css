@@ -1,0 +1,222 @@
+/* LiaScript Master Theme CSS */
+
+/* Global styling for sections */
+section {
+  background-color: #f5f7fa;
+  padding: 2em;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  position: relative;
+  min-height: 400px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: #F48221;
+}
+
+/* Main title styling */
+.main-title {
+  color: #00008B;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* Automatic logo placement using CSS pseudo-elements */
+.slide-logos::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  pointer-events: none;
+  z-index: 1000;
+  background: 
+    /* Left logo */
+    url('https://via.placeholder.com/120x80/1A237E/white?text=LOGO1') no-repeat 20px 20px / 100px auto,
+    /* Center logo */
+    url('https://via.placeholder.com/120x80/3949AB/white?text=LOGO2') no-repeat calc(70% - 50px) 20px / 80px auto,
+    /* Right logo */
+    url('https://via.placeholder.com/120x80/5b9bd5/white?text=LOGO3') no-repeat calc(100% - 120px) 20px / 100px auto;
+}
+
+/* Apply to sections automatically */
+section {
+  position: relative;
+}
+
+section::after {
+  content: '';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 1000;
+  background: 
+    /* UNESCO-UNEVOC logo - leftmost */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/UNESCO-UNEVOC_logo.png') no-repeat 20px 20px / 80px auto,
+    /* ASSET icon */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/ASSET_icon.png') no-repeat 120px 20px / 80px auto,
+    /* HWK Blume */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/HWK_Blume.png') no-repeat 220px 20px / 80px auto,
+    /* GIZ logo - center */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/giz-logo.gif') no-repeat calc(50% - 40px) 20px / 80px auto,
+    /* OVGU logo */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/ovgu.png') no-repeat calc(100% - 340px) 20px / 80px auto,
+    /* UoVT logo */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/UoVT_Logo.png') no-repeat calc(100% - 240px) 20px / 80px auto,
+    /* HRDC logo */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/hrdc_logo.png') no-repeat calc(100% - 140px) 20px / 80px auto,
+    /* MITD logo - rightmost */
+    url('https://raw.githubusercontent.com/OVGU-VET-TechEd/ASSET_UNESCO_Coinitiative/main/media/mitd_logo.png') no-repeat calc(100% - 40px) 20px / 80px auto;
+}
+
+
+/* Manual logo containers (for when you need more control) */
+.logo-container {
+  position: fixed;
+  bottom: 20px;
+  opacity: 0.9;
+  z-index: 1000;
+  text-align: center;
+  width: 120px;
+}
+
+.logo-left {
+  left: 20px;
+}
+
+.logo-center {
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.logo-right {
+  right: 20px;
+}
+
+.logo-container img {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 120px;
+}
+
+.logo-container .logo-text {
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Content box styles */
+.content-box {
+  background: linear-gradient(to right, #1e3c72 0%, #2a5298 100%);
+  padding: 2em;
+  border-radius: 20px;
+  color: #e0e7ff;
+  margin: 1em 0;
+}
+
+.glass-effect {
+  background: rgba(74,144,226,0.1);
+  border: 1px solid #4a90e2;
+  backdrop-filter: blur(8px);
+  padding: 2em;
+  border-radius: 20px;
+  color: #0d2d57;
+}
+
+.elegant-box {
+  background: linear-gradient(to bottom right, #cce0f5, #e6f0fa);
+  padding: 1.5em;
+  border-left: 8px solid #5b9bd5;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  color: #2b3f54;
+  font-weight: bold;
+}
+
+.fresh-box {
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  padding: 1.5em;
+  border-radius: 20px;
+  box-shadow: inset 0 0 5px #fff, 0 0 15px rgba(0,0,0,0.1);
+  color: #1a3e72;
+  font-weight: bold;
+}
+
+/* Flex layout for multiple columns */
+.flex-container {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+}
+
+.flex-item {
+  flex: 1;
+  padding: 1.5em;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.flex-item.dark {
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  color: #ffffff;
+}
+
+.flex-item.light {
+  background: linear-gradient(to bottom, #c2e9fb, #a1c4fd);
+  color: #333;
+}
+
+/* Table styling */
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  color: #004080;
+}
+
+th, td {
+  border: 1px solid #b3d1ff;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+th {
+  background: #e6f2ff;
+}
+
+/* Progress bar styling */
+td:nth-child(2) {
+  font-family: monospace;
+}
+
+/* Title page specific styling */
+.title-page-svg {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .logo-container {
+    width: 80px;
+  }
+  
+  .flex-container {
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  section {
+    padding: 1em;
+  }
+  
+  .main-title {
+    font-size: 1.4em;
+  }
+}
